@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local dependencies
+.venv/
+venv/
+env/
+ENV/
+site-packages/
+
+# Playwright and test output
+screenshots/
+test-results/
+playwright-report/
+trace.zip
+
+# Local environment files
+.env
+.env.*
+
+# IDE/editor files
+.idea/
+.vscode/
